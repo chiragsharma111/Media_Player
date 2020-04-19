@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:id="@+id/cardView1"-->
+<!--        android:layout_width="100pt"-->
+<!--        android:layout_height="100pt"-->
+<!--        app:cardCornerRadius="5pt"-->
+<!--        app:cardElevation="1pt">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="vertical"-->
+<!--            android:gravity="center">-->
+
+
+<!--            <ImageView-->
+<!--                android:id="@+id/imageView"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                app:srcCompat="@drawable/cardimage"-->
+<!--                android:layout_marginBottom="20pt"-->
+<!--                android:scaleType="fitXY"/>-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/textView1"-->
+<!--                android:layout_marginTop="-15pt"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Hello World!"-->
+<!--                android:textColor="@color/dark" />-->
+<!--        </LinearLayout>-->
+
+
+<!--    </androidx.cardview.widget.CardView>-->
+
+    <ListView
+        android:id="@+id/lvListSongs"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <SeekBar
+        android:id="@+id/sbProgress"
+        android:layout_weight="0"
+        android:layout_width="match_parent"
+        android:layout_height="15pt" />
+</LinearLayout>
